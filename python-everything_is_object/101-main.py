@@ -1,4 +1,4 @@
-/usr/bin/python3
+#!/usr/bin/python3
 LockedClass = __import__('101-locked_class').LockedClass
 
 lc = LockedClass()
@@ -7,4 +7,3 @@ try:
     lc.last_name = "Snow"
 except Exception as e:
     print("[{}] {}".format(e.__class__.__name__, e))
-
