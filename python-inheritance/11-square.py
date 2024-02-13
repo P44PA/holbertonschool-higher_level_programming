@@ -1,12 +1,6 @@
 #!/usr/bin/python3
-"""
-more class base
-"""
-
-
+"""this module defines a Rectangle subclass Square"""
 Rectangle = __import__('9-rectangle').Rectangle
-
-
 """
 Square class
 """
@@ -20,4 +14,4 @@ class Square(Rectangle):
         super().__init__(self.__size, self.__size)
 
     def __str__(self):
-        return("[Square] " + str(self.__size) + "/" + str(self.__size))
+        return ("[Square] " + str(self.__size) + "/" + str(self.__size))
